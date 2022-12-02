@@ -1,0 +1,88 @@
+.card {
+    background: rgb(0, 31, 36);
+    background: linear-gradient(90deg, rgba(0, 31, 36, 1) 8%, rgba(203, 203, 241, 1) 59%, rgba(0, 212, 255, 0.14874141876430202) 100%);
+}
+
+/* ccd5ae
+
+e9edc9
+
+fefae0
+
+faedcd
+
+d4a373 */
+
+body {
+    /* background: #fefae0; */
+    /* justify-items: center; */
+    /* position: relati; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyDic {
+    background-color: #fefae0;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 50px;
+    /* justify-content: center; */
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: -4px 3px 14px -5px #c36e19;
+    -webkit-box-shadow: -4px 3px 14px -5px #c36e19;
+    ;
+    -moz-box-shadow: -4px 3px 14px -5px #c36e19;
+    ;
+    /* background: rgb(0, 31, 36);
+    background: linear-gradient(360deg, rgba(0, 31, 36, 1) 8%, rgba(203, 203, 241, 1) 59%, rgba(0, 213, 255, 0.161) 100%); */
+}
+
+.appName {
+    text-align: center;
+}
+
+
+
+
+
+.wordTitle,
+.pronunciation,
+.partsOfSpeech {
+    text-align: center;
+}
+
+.defintionProper li {
+    padding: 10px;
+    line-height: 25px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+;
+
+
+.wordoftheday {}
+
+@media screen and (max-width: 800px) {
+    .bodyDic {
+        margin: auto;
+        width: 90%;
+        position: relative;
+        top: 50px;
+        /* justify-content: center; */
+        box-sizing: border-box;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: -4px 3px 14px -5px #c36e19;
+        -webkit-box-shadow: -4px 3px 14px -5px #c36e19;
+        ;
+        -moz-box-shadow: -4px 3px 14px -5px #c36e19;
+        ;
+        /* background: rgb(0, 31, 36);
+        background: linear-gradient(360deg, rgba(0, 31, 36, 1) 8%, rgba(203, 203, 241, 1) 59%, rgba(0, 213, 255, 0.161) 100%); */
+    }
+}
